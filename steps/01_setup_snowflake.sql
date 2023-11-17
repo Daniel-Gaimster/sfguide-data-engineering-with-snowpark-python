@@ -61,6 +61,8 @@ CREATE OR REPLACE STAGE FROSTBYTE_RAW_STAGE
     URL = 's3://sfquickstarts/data-engineering-with-snowpark-python/'
 ;
 
+list @frostbyte_raw_stage;
+
 -- ANALYTICS objects
 USE SCHEMA ANALYTICS;
 -- This will be added in step 5
